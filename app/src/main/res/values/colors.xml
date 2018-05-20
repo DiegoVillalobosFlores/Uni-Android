@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/WhiteMain</color>
+    <color name="colorPrimaryDark">@color/WhiteMainDark</color>
+    <color name="colorAccent">@color/BlueAccent</color>
+
+    <color name="WhiteMain">#E7F0FF</color>
+    <color name="WhiteMainDark">#E3EBFF</color>
+    <color name="RedAccent">#DC493A</color>
+    <color name="BlueAccent">#4392F1</color>
+    <color name="Black">#000</color>
+    <color name="main_transparent">#99000000</color>
+    <color name="White">#fff</color>
+</resources>

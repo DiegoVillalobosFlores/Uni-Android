@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="3dp">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/recycler_anuncios_image_announcement"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:background="@color/main_transparent"
+            android:animateLayoutChanges="true"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/assistant_light"
+                android:text="La UDG no tiene coordinacion"
+                android:textSize="24sp"
+                android:layout_margin="16dp"
+                android:textColor="@color/WhiteMainDark"
+                android:id="@+id/recycler_anuncios_text_title"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="@font/assistant_extralight"
+                    android:text="Ing. Computacion Qci"
+                    android:textColor="@color/WhiteMainDark"
+                    android:textSize="18sp"
+                    android:id="@+id/recycler_anuncios_text_coordinacion"
+                    android:textStyle="italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/assistant_light"
+                    android:text="12/28/2018"
+                    android:gravity="end"
+                    android:textColor="@color/White"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="16dp"
+                    android:id="@+id/recycler_anuncios_text_fecha"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</android.support.v7.widget.CardView>
