@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/main_transparent"
     android:animateLayoutChanges="true">
 
     <android.support.v4.widget.NestedScrollView
@@ -44,8 +43,8 @@
     <ProgressBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:indeterminateTint="@color/White"
-        android:layout_gravity="center_horizontal"
+        android:indeterminateTint="@color/Black"
+        android:layout_gravity="center"
         android:id="@+id/main_progress_anuncios"
         android:layout_margin="16dp"/>
 

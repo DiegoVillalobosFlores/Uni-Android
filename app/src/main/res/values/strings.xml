@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">Uni</string>
 
-    <string name="API">https://us-central1-unix-5d389.cloudfunctions.net/</string>
+    <string name="API">https://us-central1-unix-5d389.cloudfunctions.net</string>
     <string name="API_GET_ANNOUNCEMENTS">/getAnnouncements</string>
+    <string name="title_activity_anuncio_detail">AnuncioDetailActivity</string>
+    <string name="API_GET_COMMENT">/getAnnouncementComment</string>
+    <string name="API_POST_COMMENT">/postComment</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rutrum id nisi eu auctor. Suspendisse sed felis eu diam vehicula suscipit. Nulla laoreet felis at leo tincidunt, et congue tellus eleifend. Morbi molestie congue mi, vel porttitor neque malesuada ac. Aenean tincidunt volutpat quam sed rhoncus. Aenean aliquam massa quis turpis auctor, nec bibendum mauris porttitor. Phasellus efficitur lorem ut viverra pulvinar. Vivamus mollis justo quis ipsum tempor, vel tempus tortor vestibulum. Mauris lacus diam, viverra ut bibendum sed, mattis id purus. Nunc non lacus vitae odio imperdiet dictum nec eget ex.
+
+        Maecenas ut congue diam, sed commodo erat. Morbi in felis non massa mollis sollicitudin pharetra non mi. Quisque lobortis commodo congue. Morbi eget egestas ipsum. Morbi eu commodo mi. Sed mattis iaculis lacus ac aliquet. Cras faucibus ut dolor eu vulputate. Quisque ullamcorper posuere nisl, sed suscipit nunc accumsan sit amet. Curabitur tincidunt ligula mi, et tempus mi volutpat et.</string>
 </resources>

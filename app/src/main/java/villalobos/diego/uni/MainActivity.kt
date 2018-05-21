@@ -1,5 +1,6 @@
 package villalobos.diego.uni
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.RecyclerView
@@ -42,6 +43,12 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    fun onAnuncioClicked(anuncio: Anuncio){
+        val intent = Intent(this,AnuncioDetailActivity::class.java)
+        intent.putExtra("anuncio",anuncio)
+        startActivity(intent)
+    }
+
     fun switchScrollProgressVisibility(show:Boolean){
         if(show){
             main_nested.visibility = View.GONE
@@ -53,7 +60,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun drawAnunciosRecycler(){
-        viewAdapter = AnuncioAdapter(anuncios,{anuncio: Anuncio -> {} })
+        viewAdapter = AnuncioAdapter(anuncios,{anuncio: Anuncio -> onAnuncioClicked(anuncio) })
 
         val recycler = findViewById<RecyclerView>(R.id.main_recycler_announcements).apply {
             setHasFixedSize(true)
